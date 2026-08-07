@@ -17,8 +17,8 @@ export const MOVIE_DATA = {
     { name: 'Charlie Cox', role: 'Matt Murdock' },
   ],
   trailerVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0', // or trailer fallback
-  posterImage: 'https://images.unsplash.com/photo-1635863138275-d9b33299680b?auto=format&fit=crop&w=1200&q=80', // High res Spider-Man style hero photo
-  avatarImage: 'https://images.unsplash.com/photo-1604200213928-ba3cf4fc8436?auto=format&fit=crop&w=400&q=80',
+  posterImage: 'https://i.postimg.cc/90dpZNNJ/images.jpg',
+  avatarImage: 'https://i.postimg.cc/MGSX3ZVh/images.jpg',
 };
 
 export const QUALITY_OPTIONS: VideoQualityOption[] = [

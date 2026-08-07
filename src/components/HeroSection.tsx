@@ -13,8 +13,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onStartDownload }) => 
       <div className="relative mb-6 cursor-pointer group" onClick={onStartDownload}>
         <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1 border-2 border-[#ff007a] glow-pink-ring transition-transform group-hover:scale-105 duration-300 relative bg-[#131722] overflow-hidden">
           <img
-            src="https://images.unsplash.com/photo-1635863138275-d9b33299680b?auto=format&fit=crop&w=400&q=80"
-            alt="Spider-Man & MJ"
+            src={MOVIE_DATA.avatarImage}
+            alt="Spider-Man Logo"
             className="w-full h-full object-cover rounded-full"
             referrerPolicy="no-referrer"
           />
