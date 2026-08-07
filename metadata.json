@@ -1,0 +1,6 @@
+{
+  "name": "Spider-Man: Brand New Day Portal",
+  "description": "Exclusive fan portal and streaming mirror experience for Spider-Man: Brand New Day, with movie preview, download simulator, mirror node selection, and HD quality options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

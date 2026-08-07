@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #080a12;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Glow Effects matching exact screenshot styling */
+.glow-pink-ring {
+  box-shadow: 0 0 25px rgba(255, 0, 122, 0.75), 0 0 10px rgba(255, 0, 122, 0.4);
+}
+
+.glow-pink-button {
+  box-shadow: 0 0 30px rgba(255, 0, 122, 0.55), 0 0 12px rgba(255, 94, 0, 0.4);
+}
+
+.glow-green-dot {
+  box-shadow: 0 0 12px #00ff66, 0 0 4px #00ff66;
+}
+
+.glow-pink-dot {
+  box-shadow: 0 0 12px #ff007a, 0 0 4px #ff007a;
+}
+
+.bg-gradient-banner {
+  background: linear-gradient(90deg, #ff007a 0%, #ff5e00 100%);
+}
+
+.bg-gradient-btn {
+  background: linear-gradient(90deg, #ff007a 0%, #ff5e00 100%);
+}
+
+.bg-gradient-btn:hover {
+  background: linear-gradient(90deg, #e6006e 0%, #e65500 100%);
+}
+
+.serif-title {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 20px rgba(255, 0, 122, 0.7);
+  }
+  50% {
+    transform: scale(1.05);
+    box-shadow: 0 0 35px rgba(255, 0, 122, 0.95);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2.5s infinite ease-in-out;
+}
+
