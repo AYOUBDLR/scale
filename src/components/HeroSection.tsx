@@ -14,7 +14,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onStartDownload }) => 
         <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-full p-1 border-2 border-[#ff007a] glow-pink-ring transition-transform group-hover:scale-105 duration-300 relative bg-[#131722] overflow-hidden">
           <img
             src={MOVIE_DATA.avatarImage}
-            alt="Spider-Man Logo"
+            alt="South Park Logo"
             className="w-full h-full object-cover rounded-full"
             referrerPolicy="no-referrer"
           />
@@ -27,7 +27,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onStartDownload }) => 
 
       {/* Main Serif Display Title */}
       <h1 className="serif-title text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-wide leading-tight mb-4 uppercase drop-shadow-md">
-        SPIDER-MAN: BRAND NEW DAY
+        {MOVIE_DATA.title}
       </h1>
 
       {/* Mirror Status Pill */}
@@ -46,7 +46,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onStartDownload }) => 
         {/* Poster Image Background */}
         <img
           src={MOVIE_DATA.posterImage}
-          alt="Spider-Man Movie Frame Preview"
+          alt="South Park Preview"
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 filter brightness-90 group-hover:brightness-100"
           referrerPolicy="no-referrer"
         />

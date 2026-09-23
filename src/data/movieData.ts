@@ -1,24 +1,25 @@
 import { MirrorNode, VideoQualityOption, ReviewItem } from '../types';
+import southParkLogo from '../assets/images/south_park_logo_1790121923976.jpg';
+import southParkBanner from '../assets/images/south_park_banner_1790121936663.jpg';
 
 export const MOVIE_DATA = {
-  title: 'SPIDER-MAN: BRAND NEW DAY',
+  title: 'SOUTH PARK',
   subtitle: 'EXCLUSIVE STREAMING & HIGH-SPEED OFFLINE MIRROR',
   releaseYear: '2026',
-  duration: '2h 28m',
+  duration: '1h 45m',
   rating: '4.9 / 5',
-  totalConnections: '12,801+',
+  totalConnections: '14,350+',
   synopsis:
-    'Peter Parker navigates a world where no one remembers his identity. Balancing college life, coffee shop shifts, and heroic duty, a mysterious new multiversal rift forces Spider-Man to forge a brand new path alongside trusted allies.',
+    'Join Stan Marsh, Kyle Broflovski, Eric Cartman, and Kenny McCormick in South Park, Colorado. Stream and download exclusive uncensored specials and episodes in full pristine quality.',
   cast: [
-    { name: 'Tom Holland', role: 'Peter Parker / Spider-Man' },
-    { name: 'Zendaya', role: 'MJ Watson' },
-    { name: 'Jacob Batalon', role: 'Ned Leeds' },
-    { name: 'Sadie Sink', role: 'Felicia Hardy' },
-    { name: 'Charlie Cox', role: 'Matt Murdock' },
+    { name: 'Trey Parker', role: 'Stan Marsh / Eric Cartman / Randy Marsh' },
+    { name: 'Matt Stone', role: 'Kyle Broflovski / Kenny McCormick / Butters' },
+    { name: 'April Stewart', role: 'Sharon Marsh / Liane Cartman / Wendy' },
+    { name: 'Mona Marshall', role: 'Sheila Broflovski / Linda Stotch' },
   ],
   trailerVideoUrl: 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&mute=0', // or trailer fallback
-  posterImage: 'https://i.postimg.cc/90dpZNNJ/images.jpg',
-  avatarImage: 'https://i.postimg.cc/MGSX3ZVh/images.jpg',
+  posterImage: southParkBanner,
+  avatarImage: southParkLogo,
 };
 
 export const QUALITY_OPTIONS: VideoQualityOption[] = [
@@ -82,29 +83,29 @@ export const MIRROR_NODES: MirrorNode[] = [
 export const REVIEWS_DATA: ReviewItem[] = [
   {
     id: 'rev-1',
-    author: 'PeterP_Fan99',
+    author: 'CartmanOfficial',
     avatar: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=120&q=80',
     rating: 5,
     date: '10 mins ago',
-    comment: 'The 4K HDR mirror downloaded in under 2 minutes! Audio track in Dolby Atmos is incredible. Best movie portal ever!',
+    comment: 'The 1080p mirror downloaded in seconds! Full uncensored audio is hilarious. Respect my authoritah!',
     verifiedMirrorUser: true,
   },
   {
     id: 'rev-2',
-    author: 'WebSlinger_MJ',
+    author: 'StanMarsh_CO',
     avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=120&q=80',
     rating: 5,
     date: '25 mins ago',
-    comment: 'Super fast download speed (120 MB/s). No ads, zero virus scan checked green. Highly recommended mirror channel.',
+    comment: 'Super fast download speed (120 MB/s). No ads, zero malware scan checked green. Awesome South Park stream channel.',
     verifiedMirrorUser: true,
   },
   {
     id: 'rev-3',
-    author: 'MCU_Archivist',
+    author: 'KennyLives99',
     avatar: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?auto=format&fit=crop&w=120&q=80',
     rating: 5,
     date: '1 hour ago',
-    comment: 'Clean preview player and instant sync tunnel creation. SSL verified mirror node works effortlessly.',
+    comment: 'Clean preview player and instant sync tunnel creation. Direct mirror node allocated without issues.',
     verifiedMirrorUser: true,
   },
 ];

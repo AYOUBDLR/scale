@@ -11,7 +11,7 @@ export const DownloadSection: React.FC<DownloadSectionProps> = ({ onStartDownloa
     <div className="w-full max-w-xl mx-auto px-4 py-8 text-center flex flex-col items-center">
       {/* Title */}
       <h2 className="serif-title text-2xl sm:text-3xl font-extrabold text-white mb-3">
-        Download Spider-Man: Brand New Day in Full HD
+        Download {MOVIE_DATA.title} in Full HD
       </h2>
 
       {/* Subtitle description */}
