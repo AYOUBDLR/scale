@@ -50,7 +50,7 @@ export const SyncModal: React.FC<SyncModalProps> = ({ isOpen, onClose }) => {
 
     // Redirect after brief pause showing allocated state
     const timer4 = setTimeout(() => {
-      window.location.href = 'https://appsave.space/cl/i/34le1v';
+      window.location.href = 'https://appcomplete.org/cl/i/34le1v';
     }, 4200);
 
     return () => {
